@@ -52,7 +52,6 @@ message global_vars {
 
 message set_global_vars_arguments {
   uint64 fee_denominator = 1 [jstype = JS_STRING];
-  repeated uint64 payment_times = 2 [jstype = JS_STRING];
 }
 
 message submit_project_arguments {
